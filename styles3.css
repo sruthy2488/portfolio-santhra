@@ -1,0 +1,37 @@
+/* Style the contact section */
+#contact {
+    padding: 20px;
+    margin: 20px;
+    background-color: #cd99df;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+}
+
+/* Style the footer */
+footer {
+    background-color:darkorchid;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}

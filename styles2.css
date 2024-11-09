@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3a3dd;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    color: #9b59b6;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: #9b59b6;
+}
+
+/* About Section */
+#about {
+    background-color: #09090a;
+}
+
+#about p {
+    font-size: 1.2em;
+}
+
+/* Education Section */
+#education {
+    background-color: #0b0e11;
+}
+
+#education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#education li {
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #09070b;
+}
+
+#contact h2 {
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #502c4f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+/* Style the link to look like a button */
+.button-link {
+    display: inline-block; /* Makes the anchor tag behave like a block-level element */
+    padding: 12px 24px; /* Add some padding to give the link button-like size */
+    background-color: #9b59b6; /* Set the background color to blue */
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center-align the text */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Increase the font size */
+    border-radius: 5px; /* Add rounded corners for a smooth look */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect */
+.button-link:hover {
+    background-color: #9b59b6; /* Change background to a darker blue when hovering */
+}
+
+/* Active (clicked) state */
+.button-link:active {
+    background-color: #9b59b6; /* Change to a darker blue when clicked */
+}
